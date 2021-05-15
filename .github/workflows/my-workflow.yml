@@ -1,1 +1,7 @@
+name: Docker Actions
 
+on: [push]
+
+jobs:
+  actions:
+    runs-on: ubuntu-latest
